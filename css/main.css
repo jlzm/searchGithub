@@ -1,0 +1,232 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: lighter;
+  color: #aaa;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+form {
+  position: relative;
+  font-size: 0;
+}
+
+button, input {
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #003366;
+  outline: 0;
+  color: #3399CC;
+  line-height: 1.1;
+}
+
+form input {
+  width: 80%;
+}
+
+form button {
+  width: 20%;
+  border-left: 0;
+}
+
+button:hover{
+  cursor: pointer;
+  background: #3399CC;
+  color: #ffff;
+}
+
+
+[hidden] {
+  display: none !important;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+
+
+}
+
+.tac {
+  text-align: center;
+}
+
+#placeholer {
+  font-size: 80%;
+  opacity: .7;
+}
+
+#amount {
+  font-size: 80%;
+  color: #aaa;
+}
+
+.user {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user:hover{
+  border: 1px solid #3399CC;
+}
+
+.user > * {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  color: #555;
+  font-size: 80%;
+}
+
+.user .info > * {
+  margin-bottom: 2px;
+}
+
+.username {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.avatar {
+  border-right: 1px solid rgba(0, 0, 0, .1);
+  padding: 0;
+}
+
+#top {
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, .6);
+  border: 0;
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+}
+
+#history-list{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  max-height: 300px;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #003366;
+  border-top: 0;
+  font-size: 14px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  cursor: default;
+}
+
+.history{
+  padding: 5px 10px;
+  font-size: 0;
+}
+
+.history:hover {
+  background: rgba(0, 0, 200, .1);
+}
+
+.history .text,
+.history .tool {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.history .text {
+  width: 80%;
+  font-size: .9rem;
+}
+
+.history .tool {
+  display: none;
+  width: 20%;
+  font-size: .6rem;
+  text-align: right;
+  color: #aaa;
+}
+
+.history:hover .tool {
+  display: inline-block;
+}
+
+.history > *,
+.clear-histoty{
+  cursor: pointer;
+}
+
+.clear-histoty{
+  text-align: center;
+  font-size: .6rem;
+  padding: 5px 10px;
+  color: #ccc;
+}
+
+.delete:hover{
+  color: #DB7093;
+}
+
+.clear-histoty:hover{
+  color: 	#DC143C;
+}
+
+.active{
+  background: #003366;
+  color: #3399CC;
+}
+.pagination-fieldset{
+  text-align: center;
+  font-size: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.pagination-fieldset > *{
+  display: inline-block;
+}
+
+
+.pagination-pre > *,
+.pagination-list > *{
+  border-right: 0;
+}
+
+.pagination-list > *:last-child{
+  border-right: 1px solid #003366;
+}
+
+
+.pagination-post > *{
+  border-left: 0;
+}
