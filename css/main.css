@@ -202,8 +202,8 @@ button:hover{
 }
 
 .active{
-  background: #003366;
-  color: #3399CC;
+  background: #3399cc;
+  color: #fff;
 }
 .pagination-fieldset{
   text-align: center;
